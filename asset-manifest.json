@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/moire-patterns/static/css/main.d2d71ba9.chunk.css",
+    "main.js": "/moire-patterns/static/js/main.a22bcadb.chunk.js",
+    "main.js.map": "/moire-patterns/static/js/main.a22bcadb.chunk.js.map",
+    "runtime-main.js": "/moire-patterns/static/js/runtime-main.3162ed51.js",
+    "runtime-main.js.map": "/moire-patterns/static/js/runtime-main.3162ed51.js.map",
+    "static/js/2.3936ac00.chunk.js": "/moire-patterns/static/js/2.3936ac00.chunk.js",
+    "static/js/2.3936ac00.chunk.js.map": "/moire-patterns/static/js/2.3936ac00.chunk.js.map",
+    "index.html": "/moire-patterns/index.html",
+    "precache-manifest.d1265cfd72217b55ab2133bab071f354.js": "/moire-patterns/precache-manifest.d1265cfd72217b55ab2133bab071f354.js",
+    "service-worker.js": "/moire-patterns/service-worker.js",
+    "static/css/main.d2d71ba9.chunk.css.map": "/moire-patterns/static/css/main.d2d71ba9.chunk.css.map",
+    "static/js/2.3936ac00.chunk.js.LICENSE.txt": "/moire-patterns/static/js/2.3936ac00.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3162ed51.js",
+    "static/js/2.3936ac00.chunk.js",
+    "static/css/main.d2d71ba9.chunk.css",
+    "static/js/main.a22bcadb.chunk.js"
+  ]
+}
