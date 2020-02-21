@@ -1,0 +1,106 @@
+.app-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+input[type="range"][orient="vertical"] {
+  position: absolute;
+  -webkit-appearance: slider-vertical;
+  height: 50%;
+  width: 7.5%;
+  left: 0;
+  margin: 0;
+}
+
+.lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.lines--spinning1 {
+  position: absolute;
+  -webkit-animation: spin 10s ease-in-out infinite;
+          animation: spin 10s ease-in-out infinite;
+}
+
+.lines--spinning2 {
+  position: absolute;
+  -webkit-animation: spin 8s ease-in-out infinite;
+          animation: spin 8s ease-in-out infinite;
+}
+
+.lines--spinning3 {
+  position: absolute;
+  -webkit-animation: spin 12s ease-in-out infinite;
+          animation: spin 12s ease-in-out infinite;
+}
+
+.lines--spinning3 {
+  position: absolute;
+  -webkit-animation: spin 16s ease-in-out infinite;
+          animation: spin 16s ease-in-out infinite;
+}
+
+.lines--spinning4 {
+  position: absolute;
+  -webkit-animation: spin 12s linear infinite;
+          animation: spin 12s linear infinite;
+}
+
+.circle1 {
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  border: solid 8px white;
+  border-radius: 100%;
+  opacity: 10%;
+  -webkit-transform: translate(20%);
+          transform: translate(20%);
+}
+
+.circle2 {
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  border: solid 8px white;
+  border-radius: 100%;
+  opacity: 10%;
+  -webkit-transform: translate(-20%);
+          transform: translate(-20%);
+}
+
+.border {
+  position: absolute;
+  width: 85%;
+  height: 0;
+  padding-bottom: 85%;
+  border: solid 800px white;
+  border-radius: 100%;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=App.css.map */
